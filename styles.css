@@ -1,10 +1,9 @@
-/* Universal Style CSS */
 * {
     margin: 0 auto;
     font-family: "Work Sans", sans-serif;
   }
   
-  /* Common Style CSS */
+  /* Common Style */
   .primary-btn {
     padding: 21px 26px;
     border: none;
@@ -24,11 +23,11 @@
     font-size: 40px;
     font-weight: 700;
   }
-  /* Banner Style CSS */
+    /* Banner Style*/
   .banner {
     width: 100%;
     height: 105vh;
-    background: url(../images/banner3.png);
+    background: url(./images/banner3.png);
     background-size: cover;
     background-position: top left;
     display: flex;
@@ -50,7 +49,7 @@
     line-height: 26px;
   }
   
-  /* Previous Year Style CSS */
+  /* Previous Year Style */
   .previous-year {
     height: 100vh;
     padding: 130px 0;
@@ -79,9 +78,9 @@
     margin-right: 10px;
   }
   
-  /* My Plan Style CSS */
+  /* My Plan Style */
   .myplan-section {
-    margin-bottom: 130px;
+   margin-bottom: 130px;
   }
   .my-plan {
     display: flex;
@@ -91,12 +90,9 @@
   }
   .plan-item {
     padding: 8px 8px 24px;
-    box-shadow: 2px 2px 5px 3px rgba(0, 95, 172, 0.534);
-    transition: 0.5s;
+    box-shadow: 2px 2px 5px 3px rgba(20, 110, 183, 0.534);
   }
-  .plan-item:hover {
-    box-shadow: 3px 3px 5px 5px rgba(0, 95, 172, 0.712);
-  }
+  
   .plan-item img {
     width: 90px;
     height: 90px;
@@ -105,12 +101,10 @@
     margin: 24px 0px 16px;
   }
   
-  /* Keep Positive Style CSS */
+  /* Keep Positive Style */
   .keep-positive {
-    background: url(../images/watch.png),
-      linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+    background: url(./images/watch.png);
     background-size: cover;
-    background-blend-mode: overlay;
     padding: 60px 617px 0 64px;
     border-radius: 8px;
     margin-bottom: 130px;
